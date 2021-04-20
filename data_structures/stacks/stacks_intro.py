@@ -2,8 +2,7 @@
 # you can even follow the recursive approach to a stack. 
 
 # Here instead we will go with the iterative approach with a class that is essentially a wrapper around the list class
-class Stack (object):
-
+class Stack():
   __init__ (self):
     self.items = []
 
